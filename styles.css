@@ -1,0 +1,25 @@
+.circle {
+    cursor: none;
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#small {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
+#medium {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#large {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    mix-blend-mode: multiply; 
+}
